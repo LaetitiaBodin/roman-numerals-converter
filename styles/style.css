@@ -1,0 +1,122 @@
+@font-face {
+
+    font-family: 'Cream';
+    src: url('../fonts/Cream/Cream.eot');
+    src: url('../fonts/Cream/Cream.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Cream/Cream.woff2') format('woff2'),
+         url('../fonts/Cream/Cream.woff') format('woff'),
+         url('../fonts/Cream/Cream.ttf') format('truetype'),
+         url('../fonts/Cream/Cream.svg#cream') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'Dancing Script';
+    src: url('../fonts/Dancing_Script/Dancing_Script.eot');
+    src: url('../fonts/Dancing_Script/Dancing_Script.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Dancing_Script/Dancing_Script.woff2') format('woff2'),
+         url('../fonts/Dancing_Script/Dancing_Script.woff') format('woff'),
+         url('../fonts/Dancing_Script/Dancing_Script.ttf') format('truetype'),
+         url('../fonts/Dancing_Script/Dancing_Script.svg#dancing_script') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'Miss Chalkboard';
+    src: url('../fonts/Miss_Chalkboard/Miss_Chalkboard.eot');
+    src: url('../fonts/Miss_Chalkboard/Miss_Chalkboard.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Miss_Chalkboard/Miss_Chalkboard.woff2') format('woff2'),
+         url('../fonts/Miss_Chalkboard/Miss_Chalkboard.woff') format('woff'),
+         url('../fonts/Miss_Chalkboard/Miss_Chalkboard.ttf') format('truetype'),
+         url('../fonts/Miss_Chalkboard/Miss_Chalkboardt.svg#miss_chalkboard') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media all and (max-width: 767.99px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    #converter {
+        flex-direction: column;
+        font-size: 32px;
+    }
+
+    input {
+        font-size: 34px;
+    }
+
+    #roman, #modern {
+        width: 100%;
+    }
+
+}
+
+@media all and (min-width: 768px) {
+
+    h1 {
+        font-size: 46px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    #converter {
+        flex-direction: row;
+        font-size: 42px;
+    }
+
+    input {
+        font-size: 44px;
+    }
+
+    #roman, #modern {
+        width: 50%;
+    }
+
+}
+
+* {
+    color: #fff;
+    background-color: #081c15;
+}
+
+body {
+    text-align: center;
+    font-family: 'Cream', 'Tahoma', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 70vh;
+    margin: 10vh auto;
+}
+
+#converter {
+    display: flex;
+    font-family: 'Dancing Script', 'Brush Script MT', cursive;
+}
+
+input {
+    width: 90%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-family: 'Miss Chalkboard', 'Helvetica', sans-serif;
+}
